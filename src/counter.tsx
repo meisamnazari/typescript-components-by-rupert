@@ -1,5 +1,6 @@
 import * as React from "react";
-import { Backdrop, CircularProgress } from "@material-ui/core";
+import Backdrop from "@mui/material/Backdrop";
+import CircularProgress from "@mui/material/CircularProgress";
 
 export function Counter() {
   const [count, setCount] = React.useState(0);
