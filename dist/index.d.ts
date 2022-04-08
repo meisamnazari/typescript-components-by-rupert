@@ -1,1 +1,1 @@
-export { Counter } from "./counter";
+export { default as BackdropLoading } from './components/backdropLoading/backdropLoading';

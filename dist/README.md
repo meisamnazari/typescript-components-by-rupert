@@ -1,19 +1,21 @@
-# TypeScript Components by Rupert
+# Lynk Components (Storybook)
 
-This repository was created as part of a guide to publishing TypeScript React components. You can read the guide over here: [Publishing TypeScript React components to NPM](https://fildon.hashnode.dev/publishing-typescript-react-components-to-npm)
+This project was created with [Storybook.js](https://storybook.js.org).
 
-## Getting Started
+## How to start working on the project:
 
-Install this package:
+In the project directory, you can run:
 
-```shell
-npm add typescript-components-by-rupert
-```
+### `yarn install`
 
-Import the Counter component:
+Will install all the required modules
 
-```js
-import { Counter } from "typescript-components-by-rupert";
-```
+---
 
-You can then render the `Counter` component like any other React component in JSX.
+### `npm run storybook`
+
+Launches the storybook in the interactive watch mode.
+
+---
+
+Click [here](https://storybook.js.org/docs/react/get-started/introduction) more information on storybook
